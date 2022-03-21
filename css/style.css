@@ -75,4 +75,10 @@ article #container #calculadora .cax1 .btnColor {
   background: rgba(154, 240, 240, 0.699);
 }
 
+@media (max-width: 575.98px) {
+  article {
+    width: 90%;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
