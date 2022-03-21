@@ -16,31 +16,35 @@
             </div>
             <div id="calculadora">
                 <div class="cax1">
+
+                    <button onclick="limpar()">C</button>
+                    <button onclick="back('<')"><</button>
+                    <button onclick="">x²</button>
+
+                    <button class="btnColor" onclick="insert('*')">x</button>
+
                     <button  onclick="insert('7')">7</button>
                     <button  onclick="insert('8')">8</button>
                     <button  onclick="insert('9')">9</button>
+
+                    <button class="btnColor" onclick="insert('/')">/</button>
     
                     <button  onclick="insert('4')">4</button>
                     <button  onclick="insert('5')">5</button>
                     <button  onclick="insert('6')">6</button>
+
+                    <button class="btnColor" onclick="insert('-')">-</button>
     
                     <button  onclick="insert('1')">1</button>
                     <button  onclick="insert('2')">2</button>
                     <button  onclick="insert('3')">3</button>
-    
-                    <button onclick="limpar()">C</button>
-                    <button onclick="insert('0')">0</button>
-                    <button onclick="insert('%')">%</button>
 
-                    <button onclick="back('<')"><</button>
+                    <button class="btnColor" onclick="insert('+')">+</button>
+    
                     <button onclick="insert('.')">.</button>
-                </div>
-                <div class="cax2">
-                    <button onclick="insert('*')">x</button>
-                    <button onclick="insert('/')">/</button>
-                    <button onclick="insert('-')">-</button>
-                    <button onclick="insert('+')">+</button>
-                    <button onclick="calcular()">=</button>
+                    <button onclick="insert('0')">0</button>
+    
+                    <button class="btnColor w-2" onclick="calcular()">=</button>
                 </div>
             </div>
         </div>
