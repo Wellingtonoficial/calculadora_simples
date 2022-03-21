@@ -1,2 +1,2 @@
 # calculadora_simples
-(acesse){https://wellingtonoficial.github.io/calculadora_simples/}
+[link](https://wellingtonoficial.github.io/calculadora_simples/)
